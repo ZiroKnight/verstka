@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+    background: linear-gradient(136.29deg, rgba(177, 149, 194, 0.01) -20.55%,rgba(124, 119, 184, 0.6) 35.26%,rgba(111, 133, 179, 0.6) 63.779%,rgba(74, 173, 167, 0.6) 100%);    
+}
+.grad-bg-black{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header-shadow{
+    text-shadow: 6px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.button-grad{
+    background: linear-gradient(134.74deg, rgba(197, 158, 221, 0.2) -12.222%,rgb(124, 119, 184) 14.66%,rgb(111, 133, 179) 46.118%,rgb(74, 173, 167) 97.595%,rgb(135, 220, 215) 97.595%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+

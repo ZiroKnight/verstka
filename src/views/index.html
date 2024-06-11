@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./../output.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <style>
+        .bg--modal{
+            top:0;
+            position: absolute;
+            width: 100%;
+            min-height: 100vh;
+            background-color: rgb(0, 0, 0,0.25);
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body class="w-full min-h-dvh bg-blue">
+    <header class="container flex flex-col mx-auto mb-[3.75rem]">
+        <div class="px-6 pt-5 pb-[0.625rem] flex items-center justify-between">
+            <a href="">
+                <img class="justify-start aspect-[8/6] w-20" src="../assets/img/logo.svg" alt="Лого">
+            </a>
+            <div class="flex items-center justify-center justify-between w-1/2">
+                <a class="font-nunito text-[2rem] text-white" href="">кастом</a>
+                <a class="font-nunito text-[2rem] text-white" href="">о нас</a>
+                <a class="font-nunito text-[2rem] text-white" href="">доставка и оплата</a>
+            </div>
+            <div class="flex items-center justify-center justify-between gap-7">
+                <a href="">
+                    <img class="justify-end w-8 aspect-square" src="../assets/img/cart.svg" alt="Корзина">
+                </a>
+                <a href="">
+                    <img class="justify-end w-8 aspect-square" src="../assets/img/login.svg" alt="Войти">
+                </a>
+            </div>
+        </div>
+        <hr class="border-none h-[0.125rem] bg-white">
+    </header>
+
+    <main class="flex flex-col">
+        <div class="container flex mx-auto">
+            <div class="flex flex-col w-1/2 gap-7">
+                <p class="ml-8 text-xl text-white2 font-nunito">Кастомизация (кастом)  - это продукт, сделанный своими руками в неповторимом экземпляре. </p>
+                <h1 class="ml-8 font-semibold text-white2 header-shadow text-9xl font-openSans">КАСТОМ</h1>
+                <img class="mx-auto aspect-[57/46] w-[35rem]" src="../assets/img/card.png" alt="Карта">
+            </div>
+            <div class="flex flex-col w-1/2 mt-1 ml-5">
+                <p class="mb-6 text-2xl ml-28 max-w-[104] text-white2 font-nunito">Создайте для себя индивидуальную видеокарту всего за несколько простых шагов</p>
+                <img class="w-20 ml-[8rem] aspect-square" src="../assets/img/Arrow-bot.svg" alt="Стрелка">
+                <h2 class="mb-6 ml-8 text-6xl font-semibold text-white2 header-shadow font-openSans">01. ДИЗАЙН</h2>
+                <hr class="border-none h-[0.125rem] bg-white mb-5">
+                <p class="mb-6 ml-2 text-2xl max-w-[26rem] text-white2 font-nunito">Выберите один из предложенных вариантов дизайна</p>
+                
+                <div>
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide">Slide 1</div>
+                          <div class="swiper-slide">Slide 2</div>
+                          <div class="swiper-slide">Slide 3</div>
+                        </div>
+                      
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <img class="my-16 w-100" src="../assets/img/раздел компаний.svg" alt="Компании">
+        <div class="container flex flex-col mx-auto md-2">
+            <form action="" class="flex flex-col">
+            <h2 class="mb-3 ml-8 text-6xl font-semibold text-white2 drop-shadow-3xl font-openSans">02. ВЫБОР ВИДЕОКАРТЫ</h2>
+            <hr class="border-none h-[0.125rem] max-w-[48rem] bg-white mb-5">
+
+            <p class="mb-6 ml-2 text-xl text-white2 font-nunito">Выберите один из предложенных вариантов видеокарт, либо пришлите по почте свою видеокарту, <a href="">подробнее</a></p>
+            <div class="flex flex-wrap mx-9">
+                <div class="label"></div>
+            </div>
+            <button class="py-4 mx-auto text-2xl rounded-full button-grad px-14 text-white2 bg-gradient-to-br from-grad1 via-grad2 to-grad3">
+                Добавить в корзину
+            </button>
+            </form>
+        </div>
+        <div class="bg-white w-100 mt-28">
+            <div class="grad-bg-black">
+                <div class="gradient">
+                    <div class="container flex mx-auto py-14">
+                        <img class="aspect-square" src="../assets/img/delivery.svg" alt="">
+                        <div class="ml-auto">
+                            <h2 class="mb-3 ml-3 text-6xl font-semibold text-white2 drop-shadow-3xl font-openSans">03. ОФОРМЛЕНИЕ ЗАКАЗА</h2>
+                <hr class="border-none h-[0.125rem] max-w-[48rem] bg-white mb-5">
+
+                <p class="mb-6 ml-2 text-xl text-white2 font-nunito">Продолжите  добавление товаров в корзину либо, офрмите доставку</p>
+                <div class="flex">
+                    <button class="py-4 mx-auto text-2xl rounded-full button-grad px-14 text-white2 bg-gradient-to-br from-grad1 via-grad2 to-grad3">
+                        Перейти в корзину
+                    </button>
+                    <button class="py-4 mx-auto text-2xl rounded-full button-grad px-14 text-white2 bg-gradient-to-br from-grad1 via-grad2 to-grad3">
+                        Продолжить покупки
+                    </button>
+                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="container flex justify-between gap-16 mx-auto pt-14 pb-28">
+        <div class="flex flex-col gap-3">
+            <img class="w-32" src="../assets/img/logo.svg" alt="">
+            <div class="flex gap-2">
+               <img class="size-9" src="../assets/img/telegram.svg" alt=""> 
+               <img class="size-9" src="../assets/img/vk.svg" alt=""> 
+               <img class="size-9" src="../assets/img/whatsapp.svg" alt=""> 
+            </div>
+            <a class="flex font-bold text-white2 font-nunito text-m" href="">
+                <img class="mr-1 " src="../assets/img/mail.svg" alt="">
+                pixelcore@yandex.ru
+            </a>
+        </div>
+        <div class="flex flex-col text-2xl font-medium font-nunito text-white2">
+
+            <a class="text-4xl" href="">каталог</a>
+            <a href="">выбор дизайна</a>
+            <a href="">выбор видеокарты</a>
+            <a href="">оформление заказа</a>
+        </div>
+        <div class="flex flex-col text-2xl font-medium font-nunito text-white2">
+
+            <a class="text-4xl" href="">о нас</a>
+            <a href="">цель</a>
+            <a href="">команда</a>
+            <a href="">этапы работы</a>
+        </div>
+        <div class="flex flex-col text-2xl font-medium font-nunito text-white2">
+            <a class="text-4xl" href="">доставка и оплата</a>
+            <a href="">доставка, оплата, гарантия и возврат</a>
+            <a href="">отправка своей видеокарты</a>
+            <a href="">физический адрес</a>
+        </div>
+
+    </footer>
+<!-- <div class="bg--modal">
+    <div class="p-16 rounded-3xl w-[31rem] flex flex-col mx-auto bg-modal">
+        <p class="mb-5 text-4xl font-light text-center text-white font-nunito">РЕГИСТРАЦИЯ</p>
+        <form class="flex flex-col" action="">
+            <input class="mb-5 outline-none px-5 py-[0.75rem] text-2xl font-light rounded-full font-nunito bg-input" placeholder="ИМЯ" type="text">
+            <input class="mb-5 outline-none px-5 py-[0.75rem] text-2xl font-light rounded-full bg-input" placeholder="E-MAIL" type="email">
+            <input class="mb-5 outline-none px-5 py-[0.75rem] text-2xl font-light rounded-full bg-input" placeholder="ПАРОЛЬ" type="password">
+            <input class="mb-5 outline-none px-5 py-[0.75rem] text-2xl font-light rounded-full bg-input " placeholder="ПОВТОР ПАРОЛЯ" type="password">
+            <button class="mx-auto text-2xl rounded-full outline-none py-[0.625rem] drop-shadow-3xl px-9 text-white2 bg-gradient-to-br from-grad1 via-grad2 to-grad3" type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+</div> -->
+</body>
+<script>
+    const swiper = new Swiper('.swiper', {
+
+});
+</script>
+</html>
