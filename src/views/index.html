@@ -65,19 +65,10 @@
                 
                 <div>
                     <div class="flex flex-col swiper">
-                        <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
-                          <!-- Slides -->
-                          <div class="swiper-slide">Slide 1</div>
-                          <div class="swiper-slide">Slide 2</div>
-                          <div class="swiper-slide">Slide 3</div>
-                        </div>
-                      
-                        <!-- If we need navigation buttons -->
-                        <div class="flex">
-
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
+                          <img class="w-40 border-4 swiper-slide aspect-square border-modal rounded-xl"  src="../assets/img/design1.png"></img>
+                          <img class="w-40 border-4 swiper-slide aspect-square border-modal rounded-xl"  src="../assets/img/design2.png"></img>
+                          <img class="w-40 border-4 swiper-slide aspect-square border-modal rounded-xl"  src="../assets/img/design3.png"></img>
                         </div>
                       </div>
                 </div>
@@ -174,6 +165,8 @@
 </body>
 <script>
     const swiper = new Swiper('.swiper', {
+        slidesPerView:3,
+        spaceBetween:65
 
 });
 </script>
