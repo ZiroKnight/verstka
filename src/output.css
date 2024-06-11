@@ -870,6 +870,10 @@ video {
   padding: 4rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
@@ -1035,5 +1039,10 @@ video {
 }
 
 .card-gradient{
-  background: linear-gradient(90deg, rgba(255,255,255,0.2), rgba(255,255,255,0));
+  background: linear-gradient(90deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+  border: 3px solid rgb(255, 255, 255, 0.6);
+  -o-border-image: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0));
+     border-image: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0));
+  border-image-slice: 1;
+  border-right: none;
 }
