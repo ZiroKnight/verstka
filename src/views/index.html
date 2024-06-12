@@ -66,9 +66,34 @@
                 <div>
                     <div class="flex flex-col swiper">
                         <div class="swiper-wrapper">
-                          <img class="w-40 border-4 swiper-slide aspect-square border-modal rounded-xl"  src="../assets/img/design1.png"></img>
-                          <img class="w-40 border-4 swiper-slide aspect-square border-modal rounded-xl"  src="../assets/img/design2.png"></img>
-                          <img class="w-40 border-4 swiper-slide aspect-square border-modal rounded-xl"  src="../assets/img/design3.png"></img>
+                            <label for="des1"  class="cursor-pointer aspect-square rounded-xl from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br w-fit swiper-slide">
+                                <input class="hidden peer" type="radio" name="design" id="des1">
+                                <img class="w-full transition-all border-[6px] border-modal rounded-xl peer-checked:border-transparent"  src="../assets/img/design1.png"></img>
+                            </label>
+                            <label for="des2"  class="cursor-pointer aspect-square rounded-xl from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br w-fit swiper-slide">
+                                <input class="hidden peer" type="radio" name="design" id="des2">
+                                <img class="w-full transition-all border-[6px] border-modal rounded-xl peer-checked:border-transparent"  src="../assets/img/design2.png"></img>
+                            </label>
+                            <label for="des3"  class="cursor-pointer aspect-square rounded-xl from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br w-fit swiper-slide">
+                                <input class="hidden peer" type="radio" name="design" id="des3">
+                                <img class="w-full transition-all border-[6px] border-modal rounded-xl peer-checked:border-transparent"  src="../assets/img/design3.png"></img>
+                            </label>
+                            <label for="des4"  class="cursor-pointer aspect-square rounded-xl from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br w-fit swiper-slide">
+                                <input class="hidden peer" type="radio" name="design" id="des4">
+                                <img class="w-full transition-all border-[6px] border-modal rounded-xl peer-checked:border-transparent"  src="../assets/img/design1.png"></img>
+                            </label>
+                            <label for="des5"  class="cursor-pointer aspect-square rounded-xl from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br w-fit swiper-slide">
+                                <input class="hidden peer" type="radio" name="design" id="des5">
+                                <img class="w-full transition-all border-[6px] border-modal rounded-xl peer-checked:border-transparent"  src="../assets/img/design2.png"></img>
+                            </label>
+                            <label for="des6"  class="cursor-pointer aspect-square rounded-xl from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br w-fit swiper-slide">
+                                <input class="hidden peer" type="radio" name="design" id="des6">
+                                <img class="w-full transition-all border-[6px] border-modal rounded-xl peer-checked:border-transparent"  src="../assets/img/design3.png"></img>
+                            </label>
+                        </div>
+                        <div class="flex justify-center gap-16 ml-2 mt-14">
+                            <img class="w-10 arr-prev" src="../assets/img/Arrow2.svg" alt="Назад">
+                            <img class="w-10 arr-next" src="../assets/img/Arrow3.svg" alt="Вперед">
                         </div>
                       </div>
                 </div>
@@ -80,9 +105,68 @@
             <h2 class="mb-3 ml-8 text-6xl font-semibold text-white2 drop-shadow-3xl font-openSans">02. ВЫБОР ВИДЕОКАРТЫ</h2>
             <hr class="border-none h-[0.125rem] max-w-[48rem] bg-white mb-5">
 
-            <p class="mb-6 ml-2 text-xl text-white2 font-nunito">Выберите один из предложенных вариантов видеокарт, либо пришлите по почте свою видеокарту, <a href="">подробнее</a></p>
-            <div class="flex flex-wrap mx-9">
-                <div class="label"></div>
+            <p class="mb-6 ml-2 text-2xl text-white2 font-nunito">Выберите один из предложенных вариантов видеокарт, либо пришлите по почте свою видеокарту, <a href="">подробнее</a></p>
+            <!-- <div class="flex flex-wrap justify-between mx-9"> -->
+            <div class="grid grid-cols-3 gap-12 mb-24 mx-9">
+
+                    <label for="card1" class="cursor-pointer rounded-xl from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br max-w-[17rem]">
+                        <input class="hidden peer" type="radio" name="card" id="card1">
+                        <div class="min-h-full transition-all px-10 py-6 border-[6px] border-modal bg-modal rounded-xl bg-clip-padding peer-checked:border-transparent">
+                            <img class="w-48 aspect-[19/11] mb-2" src="../assets/img/cardtov1.png" alt="">
+                            <p class="mb-2 text-2xl font-semibold font-nunito text-white2">Colorful GeForce RTX 3060 Ultra W ОС 12G L-V, LHR</p>
+                            <p class="text-2xl font-semibold font-nunito text-white2">32 000 ₽</p>
+                        </div>
+                    </label>
+                <label for="card2" class="cursor-pointer mx-auto rounded-xl from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br w-[17rem]">
+                    <input class="hidden peer" type="radio" name="card" id="card2">
+
+                    <div class="min-h-full transition-all px-10 py-6 border-[6px] border-modal bg-modal rounded-xl bg-clip-padding peer-checked:border-transparent">
+
+                        <img class="w-48 aspect-[19/11] mb-2" src="../assets/img/cardtov2.png" alt="">
+                        <p class="mb-2 text-2xl font-semibold font-nunito text-white2">GIGABYTE GeForce RTX 4070 AERO OC 12G, Retail</p>
+                        <p class="text-2xl font-semibold font-nunito text-white2">66 990 ₽</p>
+                    </div>
+                </label>
+                <label for="card3" class="cursor-pointer rounded-xl ml-auto from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br w-[17rem]">
+                    <input class="hidden peer" type="radio" name="card" id="card3">
+
+                    <div class="min-h-full transition-all px-10 py-6 border-[6px] border-modal bg-modal rounded-xl bg-clip-padding peer-checked:border-transparent">
+
+                        <img class="w-48 aspect-[19/11] mb-2" src="../assets/img/cardtov3.png" alt="">
+                        <p class="mb-2 text-2xl font-semibold font-nunito text-white2">PCI-E 4.0 16 ГБ GDDR6X, 256 бит, GPU 2210 МГц</p>
+                        <p class="text-2xl font-semibold font-nunito text-white2">123 990 ₽</p>
+                    </div>
+                </label>
+                <label for="card4" class="cursor-pointer rounded-xl from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br w-[17rem]">
+                    <input class="hidden peer" type="radio" name="card" id="card4">
+                    <div class="min-h-full transition-all px-10 py-6 border-[6px] border-modal bg-modal rounded-xl bg-clip-padding peer-checked:border-transparent">
+                        <img class="w-48 aspect-[19/11] mb-2" src="../assets/img/cardtov1.png" alt="">
+                        <p class="mb-2 text-2xl font-semibold font-nunito text-white2">Colorful GeForce RTX 3060 Ultra W ОС 12G L-V, LHR</p>
+                        <p class="text-2xl font-semibold font-nunito text-white2">32 000 ₽</p>
+                    </div>
+                </label>
+                <label for="card5" class="cursor-pointer rounded-xl mx-auto from-grad2-1 via-grad2 to-grad3 bg-gradient-to-br w-[17rem]">
+                    <input class="hidden peer" type="radio" name="card" id="card5">
+
+                    <div class="min-h-full transition-all px-10 py-6 border-[6px] border-modal bg-modal rounded-xl bg-clip-padding peer-checked:border-transparent">
+
+                        <img class="w-48 aspect-[19/11] mb-2" src="../assets/img/cardtov2.png" alt="">
+                        <p class="mb-2 text-2xl font-semibold font-nunito text-white2">GIGABYTE GeForce RTX 4070 AERO OC 12G, Retail</p>
+                        <p class="text-2xl font-semibold font-nunito text-white2">66 990 ₽</p>
+                    </div>
+                </label>
+                <label for="card6" class="cursor-pointer rounded-xl from-grad2-1 ml-auto via-grad2 to-grad3 bg-gradient-to-br w-[17rem]">
+                    <input class="hidden peer" type="radio" name="card" id="card6">
+
+                    <div class="min-h-full transition-all px-10 py-6 border-[6px] border-modal bg-modal rounded-xl bg-clip-padding peer-checked:border-transparent">
+
+                        <img class="w-48 aspect-[19/11] mb-2" src="../assets/img/cardtov3.png" alt="">
+                        <p class="mb-2 text-2xl font-semibold font-nunito text-white2">PCI-E 4.0 16 ГБ GDDR6X, 256 бит, GPU 2210 МГц</p>
+                        <p class="text-2xl font-semibold font-nunito text-white2">123 990 ₽</p>
+                    </div>
+                </label>
+
+
             </div>
             <button class="py-4 mx-auto text-2xl rounded-full button-grad px-14 text-white2 bg-gradient-to-br from-grad1 via-grad2 to-grad3">
                 Добавить в корзину
@@ -166,7 +250,13 @@
 <script>
     const swiper = new Swiper('.swiper', {
         slidesPerView:3,
-        spaceBetween:65
+        spaceBetween:65,
+        navigation: {
+            nextEl: '.arr-next',
+            prevEl: '.arr-prev',
+        },
+        // slideNextClass:'arr-next',
+        // slidePrevClass:'arr-prev'
 
 });
 </script>
