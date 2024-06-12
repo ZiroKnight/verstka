@@ -596,6 +596,11 @@ video {
   position: relative;
 }
 
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .mx-9 {
   margin-left: 2.25rem;
   margin-right: 2.25rem;
@@ -618,6 +623,14 @@ video {
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .mb-3 {
@@ -684,14 +697,6 @@ video {
   margin-top: 7rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
 .flex {
   display: flex;
 }
@@ -704,6 +709,10 @@ video {
   display: none;
 }
 
+.aspect-\[19\/11\] {
+  aspect-ratio: 19/11;
+}
+
 .aspect-\[57\/46\] {
   aspect-ratio: 57/46;
 }
@@ -714,10 +723,6 @@ video {
 
 .aspect-square {
   aspect-ratio: 1 / 1;
-}
-
-.aspect-\[19\/11\] {
-  aspect-ratio: 19/11;
 }
 
 .size-9 {
@@ -745,6 +750,10 @@ video {
   width: 33.333333%;
 }
 
+.w-1\/4 {
+  width: 25%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -757,8 +766,20 @@ video {
   width: 8rem;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
 .w-8 {
   width: 2rem;
+}
+
+.w-\[17rem\] {
+  width: 17rem;
 }
 
 .w-\[31rem\] {
@@ -778,20 +799,12 @@ video {
   width: 100%;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-\[17rem\] {
-  width: 17rem;
-}
-
 .max-w-\[104\] {
   max-width: 104;
+}
+
+.max-w-\[17rem\] {
+  max-width: 17rem;
 }
 
 .max-w-\[26rem\] {
@@ -800,6 +813,14 @@ video {
 
 .max-w-\[48rem\] {
   max-width: 48rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -834,6 +855,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-14 {
   gap: 3.5rem;
 }
@@ -854,20 +879,16 @@ video {
   gap: 1.75rem;
 }
 
-.gap-12 {
-  gap: 3rem;
-}
-
-.self-center {
-  align-self: center;
-}
-
 .rounded-3xl {
   border-radius: 1.5rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .rounded-xl {
@@ -949,6 +970,11 @@ video {
   padding: 1.5rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
@@ -979,6 +1005,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .py-\[0\.625rem\] {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
@@ -987,26 +1018,6 @@ video {
 .py-\[0\.75rem\] {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .pb-28 {
@@ -1122,10 +1133,6 @@ video {
   transition-duration: 150ms;
 }
 
-.ease-linear {
-  transition-timing-function: linear;
-}
-
 .gradient {
   background: linear-gradient(136.29deg, rgba(177, 149, 194, 0.01) -20.55%,rgba(124, 119, 184, 0.6) 35.26%,rgba(111, 133, 179, 0.6) 63.779%,rgba(74, 173, 167, 0.6) 100%);
 }
@@ -1144,10 +1151,14 @@ video {
 }
 
 .card-gradient{
-  background: linear-gradient(90deg, rgba(255,255,255,0.4), rgba(255,255,255,0));
+  background: linear-gradient(90deg, rgba(255,255,255,0.2), rgba(255,255,255,0));
   border: 3px solid rgb(255, 255, 255, 0.6);
   -o-border-image: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0));
      border-image: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0));
   border-image-slice: 1;
   border-right: none;
+}
+
+.peer:checked ~ .peer-checked\:border-transparent {
+  border-color: transparent;
 }
